@@ -1,0 +1,35 @@
+.button1 {
+    margin: 10px; /* Change the margin to 10px on all sides */
+    padding: 8px 16px; /* Add padding on the top/bottom 8px and left/right 16px */
+    color: #fff; /* Change text color to white */
+    font-size: 16px; /* Reduce font size to 16px */
+    border: 2px solid #ccc; /* Add a 2px solid border with a lighter gray color */
+    background-color: #007bff; /* Change the background color to a blue shade (#007bff) */
+    border-radius: 4px; /* Reduce border radius to 4px for a slightly rounded corner */
+    font-family: 'Arial', sans-serif; /* Use Arial as the font family */
+    font-weight: bold;
+    cursor: pointer;
+}
+.incre {
+    background-color: rgb(36, 125, 227);
+}
+
+.decre {
+    background-color : rgb(52, 142, 60);
+}
+
+.reset {
+    background-color: rgb(132, 55, 55);
+}
+
+.increment:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+.decrement:hover {
+    background-color: rgb(61, 58, 58);
+}
+
+.reset:hover{
+    background-color: rgb(35, 34, 34);
+}

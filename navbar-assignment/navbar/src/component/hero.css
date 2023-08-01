@@ -1,0 +1,46 @@
+.background-img {
+    background-image: url('https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    height: 81.5vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.more-info h1 {
+    color: white;
+    font-size: 70px;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+}
+
+.more-info p {
+    color: white;
+    font-size: 20px;
+    margin-left: 7rem;
+}
+
+.more-info .learn-btn {
+    height: 40px;
+    width: 7rem;
+    background-color: rgb(239, 239, 238);
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-btn:hover {
+    background-color: rgb(147, 147, 142);
+}
